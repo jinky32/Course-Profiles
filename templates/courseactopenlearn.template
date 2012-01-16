@@ -1,0 +1,10 @@
+<div class="explanation"> 
+  <div class="message">
+    <b>{$course_code}: {$title}</b> 
+    <a href='{$openlearn_href}' target='_blank'>
+ 	   <img src='{$openlearn_logo_url}' title='OpenLearn' />
+ 	</a>
+  </div>
+This unit is derived from material in the above Open University course. 
+You have been redirected to the page for that course.
+</div>

@@ -1,0 +1,12 @@
+<script type='text/javascript'>
+ function requestCallback(response) {
+   window.location.href = 'courserecommend.php?cc={$course_code}&request=' + encodeURI(response.request) + '&to=' + encodeURI(response.to);
+ }
+ FB.ui({method: 'apprequests', 
+        message: '{$course_code} {$course_title} has been recommended to you.', 
+        title: 'Recommend a course', 
+        display: 'iframe', 
+        access_token: '{$access_token}', 
+        exclude_ids: [{$exclude_ids}], 
+       }, requestCallback); 
+</script>

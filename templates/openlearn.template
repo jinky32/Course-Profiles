@@ -1,0 +1,12 @@
+
+  <table class='pushbutton'>
+  <tr>
+    <td class='whitepanel'><a href='{$openlearn_home}' target='_blank'>
+      <img src='{$openlearn_img_url}' style='float: left; margin-right:10px;' /></a> 
+      <a href='{$openlearn_home}' target='_blank'>OpenLearn</a> is online 
+      learning that is open to anyone, anywhere in the world using 
+materials taken from Open University courses. It is completely free to use! Instead 
+of attending classes, you study online in the <a href='{$openlearn_space_home}' target='_blank'>
+LearningSpace</a>, using materials that have been specially designed for distance learning.</td>
+  </tr>
+  </table>

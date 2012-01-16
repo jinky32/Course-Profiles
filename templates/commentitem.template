@@ -1,0 +1,16 @@
+<div class='commentitempanel'>
+<span class='ciprofilepic'>
+<a href="{$commenter_link}"><img src="{$commenter_picture}" alt="{$commenter_name}" /></a>
+</span>
+<div class='commentheader'>
+<div class='commentheadertitle'>
+<a href="{$commenter_link}">{$commenter_name}</a>
+</div>
+<div class='commentheadertime'>
+Posted {$comment_time}
+</div>
+</div>
+<div class='commentitem'>
+{$comment}
+</div>
+</div>

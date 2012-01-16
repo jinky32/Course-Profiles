@@ -1,0 +1,24 @@
+<!-- Course Search form -->
+<div class="explanation">
+<div class="message">{$search_prompt}</div>
+<form method="post" action="{$app_callback_url}index.php?mode={$mode}">
+  <table class='coursesearch'>
+     <tr>
+      <td>
+        <label for='coursecode'>Course or Qualification Code: </label>
+        <input type="text" name='coursecode' class='inputsearch inputtext' size='10' maxlength='10' />
+      </td>
+      <td>
+        <label for='mopi'>Year/Presentation: </label>&nbsp;
+        <input type="text" name='mopi' class='inputtext' size='5' maxlength='5' />
+      </td>
+      <td>
+        <input type="submit" 
+             class="inputsubmit" 
+             value="Add"
+        />
+      </td>
+    </tr>
+  </table>
+</form>
+</div>

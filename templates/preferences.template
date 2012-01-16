@@ -1,0 +1,25 @@
+<div class='panel  topborderpanel'>
+{$message}
+<div id="prefspanel"  class='lform'>
+<form method='post' action='preferences.php'>
+  <label for='about'>Profile box statement</label>
+	    {$profilestmtcontrol}
+	     <br />
+	<label for='ou_region'>Open University Region</label>
+	  <select name='ou_region'>
+	    {$ouregioncontrol}
+	  </select>
+	   <br />
+	<label for='priv_studybuddy'>Who do you want to be able to find you as a study buddy?</label>
+          <select name='priv_studybuddy'>
+            {$privstudybuddycontrol}
+          </select>
+        <br />
+     {$myoustorylinkcontrol}
+      <br />
+ 	 <div class='editor-buttonset'>
+ <input type='submit' value="Save"/>
+ </div>
+</form>
+</div>
+</div>

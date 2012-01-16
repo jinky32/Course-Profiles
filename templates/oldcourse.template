@@ -1,0 +1,14 @@
+<div class='panel'>
+<div class="explanation">
+ <div class="message">Sorry this course is no longer available.</div>
+ The Open University no longer offers this course. However it does offer many other courses that might interest you,
+ why not have a look at what is on offer at on the <a href='{$courses_quals_url}' target='_blank'>
+ Courses &amp; Qualifications</a> website.
+ </div>
+ <div class="editor-buttonset">
+   <form method="get" action="{$ok_action}">
+     <input type="hidden" name="cc" value="{$course_code}" />
+     <input type="submit" value="Ok" />
+   </form>
+ </div>
+</div>

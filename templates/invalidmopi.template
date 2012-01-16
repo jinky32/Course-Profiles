@@ -1,0 +1,4 @@
+<fb:error>
+<fb:message>Year/Presentation not recognised!</fb:message>
+Sorry we couldn't understand the value you gave for <i>Year/Presentation</i> (it should be a four digit year and can be followed by a letter), please check and try again.
+</fb:error>

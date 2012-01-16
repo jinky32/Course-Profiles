@@ -1,0 +1,128 @@
+<script>
+<!--
+function toggle(question) {
+  var obj = document.getElementById(question);
+  var classname = obj.className == 'helpa' ? 'helpa_vis' : 'helpa';
+  obj.className = classname;
+}
+-->
+</script>
+<div class='helppanel'>
+<p>We've developed the Course Profiles application to help those who have studied at the OU to connect 
+(or reconnect) with each other, show off their achievements, join forces with study buddies, leave a 
+comment about a course, find Facebook friends studying the same course, recommend a course to a friend 
+and take advantage of the free resources offered through OpenLearn.  We're always interested to hear 
+what you think and how you want the application to be improved, so make sure you visit our 
+<a href='{$discussion_board_url}'>discussion board</a>!</p>
+
+<h3>Getting Started</h3>
+<div class='helpq'>
+<a href='#' onClick="toggle('q1'); return false;">How do I add a course?</a>
+</div>
+<div id='q1' class='helpa'>
+When you install and open the Course Profiles application you will see four tabs {$tab_completed}, 
+{$tab_current}, {$tab_future} and {$tab_recommend}.
+<br />
+If you have already studied and completed an OU course, click on the {$tab_completed} tab and enter either 
+the course code (for example T171) and the year that you took the
+course. The full details of the course will then be added to the completed area in your Course Profile.
+You can do exactly the same for {$tab_current} and 
+{$tab_future}.  
+</div>
+<div class='helpq'>
+<a href='#' onClick="toggle('q9'); return false;">The Recommendations tab</a>
+</div>
+<div id='q9' class='helpa'>
+The {$tab_recommend} tab works slightly differently from the others in the Course Profiles application. 
+Unlike the other tabs which you populate yourself, the recommendations tab features those courses that 
+others have recommended to you.
+<br />  
+If you have installed the Course Profiles applications after being sent a course from a friend, this 
+course will be added to the {$tab_recommend} tab.
+</div>
+<div class='helpq'>
+<a href='#' onClick="toggle('q10'); return false;">Moving courses between tabs</a>
+</div>
+<div id='q10' class='helpa'>
+You can add courses to any of the tabs that you wish.  If you complete your studies or have mistakenly 
+added a course to the wrong tab, you can easily move it to the correct place by clicking on the 
+<span class='helpl'>completed</span> or <span class='helpl'>future</span> link.  You will then be prompted 
+to confirm your choice.
+</div>
+
+
+<h3>Right, I've added my courses.  Now what can I do?</h3>
+
+<p>Now a whole range of possibilities opens up to you!
+Clicking on the title of the course you have added will take you through to a new window with 
+six options:</p>
+
+<div class='helpq'>
+<a href='#' onClick="toggle('q3'); return false;">Course Details</a>
+</div>
+<div id='q3' class='helpa'>
+Clicking on this link will take you through to that course's page on the OU's {$courses_quals_link}
+site. Here you will be able to find out much more details about the content of the course, presentation 
+dates, how the course fits into an OU degree, and a whole lot of other useful information.<br />
+If you can't click through to your course page on the {$courses_quals_link} site, it means that course is 
+no longer provided by the OU. See <a href="#oldcourse">My course doesn't link through to a page on the Courses 
+and Qualifications site - why not?</a> below.
+</div>
+
+<div class='helpq'>
+<a href='#' onClick="toggle('q4'); return false;">Find a new study buddy</a>
+</div>
+<div id='q4' class='helpa'>
+Find a new study buddy allows you to look search:
+all those with the Course Profiles application installed, 
+only those within your network and friends with the application installed,
+only your friends with the application installed.
+
+The Region box below also enables you to further limit this search by region.  By default the region that most fits the location you have set within your Facebook profile is selected.
+
+Appropriateness of study buddy is decided upon a range of factors including interests, activities and educational history.  Those you are most suited to will be listed higher in the returned results.
+
+</div>
+<div class='helpq'>
+<a href='#' onClick="toggle('q5'); return false;">Course comment wall</a>
+</div>
+<div id='q5' class='helpa'>
+This area allows you to leave a comment about the course which others can reply to.
+
+</div>
+<div class='helpq'>
+<a href='#' onClick="toggle('q6'); return false;">Friends on this Course</a>
+</div>
+<div id='q6' class='helpa'>
+Here you can see which of your existing friends is on this course with you.
+</div>
+<div class='helpq'>
+<a href='#' onClick="toggle('q7'); return false;">Recommend to a friend</a>
+</div>
+<div id='q7' class='helpa'>
+Did you love your course?  Do you know someone else who would also find it interesting or useful?  
+The recommend to a friend feature allows you to send a link to the course page on the OU 
+{$courses_quals_link} site to a friend.  You can also include a message.  Once sent this course 
+recommendation from you will appear in your friend's {$tab_recommend} tab.
+</div>
+<div class='helpq'>
+<a href='#' onClick="toggle('q8'); return false;">OpenLearn</a>
+</div>
+<div id='q8' class='helpa'>
+{$openlearn_home} is an Open University project which makes material taken from OU courses available 
+for free online.  If you course has associated OpenLearn units the number of units will be shown next 
+to the link in brackets. Clicking on the <span class='helpl'>OpenLearn</span> link will take you through to a list of the relevant 
+OpenLearn units  - you are able to click through from these to the units themselves.
+</div>
+</li>
+</ul>
+<h3>Troubleshooting</h3>
+<div class='helpq'>
+<a name="oldcourse"></a>
+<a href='#' onClick="toggle('q11'); return false;">My course doesn't link through to a page on the Courses and Qualifications site - why not?</a>
+</div>
+<div id='q11' class='helpa'>
+This is most likely to occur when you are adding courses to your {$tab_completed} tab.  If there is no 
+link available for you to click through it means that The Open University no longer provides this course.
+</div>
+</div>

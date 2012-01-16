@@ -1,0 +1,14 @@
+<div class='panel topborderpanel'>
+<form method="post" action="{$comments_page}">
+<textarea name="commenttext" class='commentbox' rows='5'></textarea>
+<br />
+<input type="submit" 
+  value="Post" 
+  class="inputsubmit"
+/> Maximum comment length is {$comment_max_length} characters.
+<br />
+<div id="coursetalk" class='commentslist'>
+{$commentslist}
+</div>
+</form>
+</div>

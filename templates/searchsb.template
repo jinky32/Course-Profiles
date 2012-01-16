@@ -1,0 +1,17 @@
+<div class="lform">
+<form method="post" action='studybuddy.php?cc={$course_code}'>
+  <label for='search_scope'>Search</label>
+ 	 <select name='search_scope'>
+ 	    {$search_opts}
+	 </select>
+  <br/>
+  <label for='search_regions'>Regions</label>
+	<select name='search_regions[]' size='14' multiple='multiple'>
+	    {$region_opts} 		
+	</select>
+  <br/>  
+  <div class="editor-buttonset">
+    <input type='submit' value='Find me a study buddy!' />
+  </div>
+</form>
+</div>

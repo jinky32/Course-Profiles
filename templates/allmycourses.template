@@ -1,0 +1,42 @@
+<div class='panel topborderpanel'>  
+ <!--<fb:if-can-see uid='{$facebook_uid}' what='profile'>-->
+ {repeatable_region name='rr_candq'}
+   <table class='fullcourse whitepanel'>
+     <tr>
+       <th class='candq_divider' colspan='4'>
+         {$candq_title}
+       </th>
+     </th>
+     {repeatable_region name='rr_coursegroup'}
+       <tr>
+         <th colspan='4'>{$status_header}</th>
+       </tr>
+       {repeatable_region name='rr_course_records'}
+         <tr>
+           <td class='course_code'>
+              <a title='{$url_title}' 
+  	          href='{$url_href}' 
+  	          target='{$url_target}'>
+  	            {$course_code}
+  	       </a>
+  	   </td>
+  	   <td class='course_divider'>
+  	      <a href='{$canvas_page_url}courseact.php?cc={$course_code}'
+                 title='Click here for things to do'>
+               {$course_title}
+          </a>
+          {$logo}
+  	   </td>
+  	   <td class='course_divider mopi'>
+  	     {$mopi}
+  	   </td>
+         </tr>
+       {end_repeatable_region name='rr_course_records'}
+     {end_repeatable_region name='rr_coursegroup'}
+   </table>
+ {end_repeatable_region name='rr_candq'}
+ <!--</fb:if-can-see>-->
+ <!--<fb:else>-->
+  <!-- You do not have permission to see this information.<br />-->
+ <!-- </fb:else>-->
+</div>

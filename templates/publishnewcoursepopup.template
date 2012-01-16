@@ -1,0 +1,16 @@
+<script>
+FB.ui(
+  {
+    method: 'feed',
+    name: '{$name}',
+    link: '{$link}',
+    picture: '{$picture}',
+    caption: '{$caption}',
+    display: 'iframe', 
+    access_token: '{$access_token}',
+    description: '{$description}'
+  },
+  function(response) {
+  }
+);
+</script>

@@ -1,0 +1,23 @@
+<div class='panel topborderpanel'>
+<table class='whitepanel question'>
+  <tr>
+    <th colspan='2'>Are you sure you want to {$wording}</th>
+  </tr>
+  <tr>
+    <td align='centre'>
+      <form action='{$action_page}' method='post'>
+        <input type='hidden' name='ri' value='{$record_id}' />
+        <input type='hidden' name='act' value='{$act}' />
+        <input type='hidden' name='mode' value='{$mode}' />
+        <input type='submit' class='inputsubmit' value='Yes' /> 
+      </form>
+    </td>
+    <td align='centre'>
+      <form action='{$action_page}' method='post'>
+        <input type='hidden' name='mode' value='{$mode}' />
+        <input type='submit' class='inputsubmit' value='No' />
+      </form>
+    </td> 
+  </tr>
+</table>
+</div>

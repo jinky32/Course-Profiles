@@ -1,0 +1,14 @@
+<div id='preview'>
+  <table class='fullcourse whitepanel'>
+     <tr>
+      <th colspan='3'>OpenLearn Resources for {$course_code}</th>
+     </tr>
+    {repeatable_region name='ol_courses'}
+       <tr>
+         <td>{$unit_code}</td>
+         <td class='course_divider'>{$title}</td>
+         <td class='course_divider'>{$action}</td>
+       </tr>
+     {end_repeatable_region name='ol_courses'} 
+  </table>
+</div>

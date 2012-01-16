@@ -1,0 +1,546 @@
+.panel
+{
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  background-color: #eeeeee;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  border-top-width: 1px;
+}
+
+.tospanel
+{
+  background-color: white;
+}
+
+.whitepanel
+{
+  width: 100%;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 9px;
+  padding-left: 9px;
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #cccccc;
+  border-right-color: #cccccc;
+  border-bottom-color: #cccccc;
+  border-left-color: #cccccc;
+  text-align: left;
+}
+
+.pushbutton .whitepanel
+{
+  width: 50%;
+  
+}
+
+.pushbutton td
+{
+  border-collapse: separate;
+  
+}
+
+.topborderpanel
+{
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #cccccc;
+  border-bottom-style: none;
+}
+
+.strapline
+{
+  width: 100%;
+  padding-right: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  text-align: left;
+}
+
+.strapline p
+{
+  font-size: 110%;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.fullcourse
+{
+  margin-bottom: 5px;
+}
+
+.fullcourse .candq_divider
+{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #3B5998;
+  color: #3B5998;
+  background-color: #D8DFEA;
+}
+
+.fullcourse .date_divider
+{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+}
+
+.fullcourse .course_divider
+{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #eeeeee;
+}
+
+.fullcourse .course_code
+{
+  width: 50px;
+}
+
+.fullcourse .mopi
+{
+  width: 40px;
+  text-align: right;
+}
+
+.fullcourse .actions
+{
+  width: 160px;
+  text-align: right;
+}
+
+.coursesearch
+{
+  margin-bottom: 8px;
+}
+
+.question
+{
+  text-align: center;
+  background-color: #ffffff;  
+  border: 1px solid #cccccc;  
+  color: #333333;  
+  padding: 10px;  
+  font-size: 13px;  
+  font-weight: normal;  
+}
+
+.question th
+{
+  text-align: center;
+  font-size: 140%;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: normal;
+}
+
+.question td
+{
+  text-align: center;
+  padding: 9px;
+  
+}
+
+.question .inputsubmit
+{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 140%;
+  background-color: #3b5998;
+  color: white;
+}
+
+.invite td
+{
+}
+
+.invitepanel .inputsubmit
+{
+   margin-top: 20px;
+   width: 100%;
+   font-size: 130%;
+}
+
+.search_act_divider
+{
+  text-align: right;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+}
+
+.helppanel
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.helppanel h3
+{
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #D8DFEA;
+}
+
+.helpq
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.helpa
+{
+  display: none;
+}
+
+.helpa_vis
+{
+  background-color: #FAFAFA;
+  border-color: #D8DFEA;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  display: block;
+  margin-left: 40px;
+  padding: 8px;
+}
+
+.helpl
+{
+  font-weight: bold;
+}
+
+.padright {
+
+}
+
+.commentbox
+{
+  width: 99%;
+}
+
+.commentslist {
+  margin-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 9px;
+  padding-left: 9px;
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #cccccc;
+  border-right-color: #cccccc;
+  border-bottom-color: #cccccc;
+  border-left-color: #cccccc;
+  text-align: left;
+}
+
+.commentitempanel
+{
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+  
+  margin-bottom: 10px;
+}
+
+.ciprofilepic
+{
+  float:left;
+}
+
+.commentheadertitle
+{
+  padding-left: 2px;
+  font-weight: bold;
+}
+
+.commentheadertime
+{
+  padding-left: 2px;
+}
+
+.commentheader {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #3B5998;
+  background-color: #F7F7F7;
+  padding: 2px;
+  margin-left: 60px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #D8DFEA;
+}
+
+.commentitem
+{
+  margin-left: 64px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.promptinput
+{
+}
+
+.promptinputbox
+{
+  width: 400px !important;
+  padding-top: 5px;
+  padding-bottom: 5px; 
+}
+
+#tabheading
+{
+  background-color: #3B5998;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: white;
+}
+
+#tabheading h2
+{
+  color: white;
+}
+
+.fbapp {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 11px;  
+  color: #333333;  
+  width: 710px;
+}
+
+.tab-item  
+{  
+  padding-right: 8px;  
+  padding-left: 8px; 
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  background-color:  #f7f7f7;  
+  color: black ! important;  
+  font-weight: bold;  
+  margin-right: 4px;  
+  text-decoration: none; 
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color:  #cccccc; 
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color:  #cccccc; 
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color:  #cccccc; 
+  font-size: 105%;
+}  
+.tab-item:hover 
+{  
+  background-color: #3b5998;  
+  color: #ffffff !important;  
+  cursor: hand;  
+}
+
+.tab-item-selected 
+{  
+  color: white ! important; 
+  background-color: #3b5998;    
+}
+
+/* Default Anchor Style */  
+.fbapp a  
+{  
+  color: #3b5998;  
+  outline-style: none;  
+  text-decoration: none;  
+  font-size: 11px;  
+  font-weight: bold;  
+} 
+.fbapp a:hover  
+{  
+  text-decoration: underline;  
+}  
+
+.message {
+  font-weight: bold; 
+}
+
+.error  
+{  
+  background-color: #ffebe8;  
+  border: 1px solid #dd3c10;  
+  color: #333333;  
+  padding: 10px;  
+  font-size: 13px;  
+  font-weight: normal;  
+}  
+
+.success 
+{  
+  background-color: #fff9d7;  
+  border: 1px solid #e2c822;  
+  color: #333333;  
+  padding: 10px;  
+  font-size: 13px;  
+  font-weight: normal;  
+}
+
+.explanation {
+  background-color: #ffffff;  
+  border: 1px solid #cccccc;  
+  color: #333333;  
+  padding: 10px;  
+  font-size: 13px;  
+  font-weight: normal;  
+}
+
+.dashboard {
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+}
+
+.dashboard a {
+  padding-right: 10px;  
+  padding-left: 10px;  
+  font-size: 12px;  
+  font-weight: normal; 
+}
+
+.dashboard .divider { 
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #cccccc;
+}
+
+.dashboard .help {
+  padding-right: 10px;  
+  padding-left: 10px;  
+  font-size: 12px;  
+  font-weight: normal;  
+  border-right-style: none;
+  float:right;
+}    
+
+h1 a {
+  font-size: 20px !important;
+}
+
+h3 a {
+  font-size: 15px !important;
+}  
+
+.preferences label {
+  left: 0px;
+}
+
+.preferences select {
+  left: 300px;
+}
+
+.lform {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.lform label {
+  display: block !important;
+  font-weight: bold;
+  font-size: 110%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.lform select {
+  display: block;
+  padding: 5px;
+}
+
+.fwinput {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.lform textarea {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.editor-buttonset {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.editor-buttonset input {
+  padding-top: 5px;
+  background-color: #3b5998;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.create-button {
+  font-weight: bold;
+  background-color: #eeeeee;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  color: black !important;
+  margin: 5px;	
+}
+
+.create-area {
+  display: inline;
+  float: right;
+}
+
+.appicon {
+  float: left;
+  display: inline;
+}
+
+.appname {
+  font-weight: bold !important;
+}

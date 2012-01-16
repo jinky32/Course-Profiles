@@ -1,0 +1,8 @@
+<fb:explanation>
+  <fb:message>Sorry, none of your friends study this {$qualorcourse}!</fb:message>
+  <b>Why not:</b>
+  <ul>
+    <li><a href='{$course_recommend_url}'>Recommend</a> this {$qualorcourse} to a friend</a></li>
+    <li>Find a <a href='{$study_buddy_url}'>study buddy</a></li>
+  </ul> 
+</fb:explanation>	

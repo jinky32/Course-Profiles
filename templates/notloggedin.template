@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<link type="text/css" href="courseprofiles.css" rel="stylesheet" />
+<title>Not logged in</title>
+</html>
+<body class="fbapp">
+<h1>Course Profiles</h1>
+<div class="explanation">
+<div class="message">Please log into Facebook to use this application.</div>
+You need to be logged into Facebook to use this application. Click on "Log in" below to do that now.
+<div class="editor-buttonset">
+<a class="create-button" href="{$auth_url}">Log In</a>
+</div>
+</div>
+</body>
+</html>
